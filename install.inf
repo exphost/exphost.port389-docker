@@ -1,0 +1,15 @@
+[General]
+FullMachineName=ldap.localdomain
+SuiteSpotUserID=dirsrv
+SuiteSpotGroup=dirsrv
+ConfigDirectoryAdminID=cn=__ADMINUSER__
+ConfigDirectoryAdminPwd=__ADMINPASS__
+[slapd]
+ServerPort=389
+UseExistingMC= 0
+ServerIdentifier=ldap
+Suffix=__SUFFIX__
+RootDN=cn=__DMUSER__
+RootDNPwd=__DMPASS__
+[admin]
+Port= 9830
